@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label>Voornaam:</label>
+            <input type="text" pattern="[a-zA-Z]*" required>
+        </div>
+        <div>
+            <label>Achternaam:</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label>gender</label>
+            <select>
+                <option value="man">man</option>
+                <option value="female">female</option>
+                <option value="Chinese citizen">Chinese citizen</option>
+            </select>
+        </div>
+        <div>
+            <label>E-mail</label>
+            <input type="email" required>
+        </div>
+        <div>
+            <label>Wachtwoord</label>
+            <input type="password" required>
+        </div>
+        <div>
+            <label>land:</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label>stad:</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label>straat:</label>
+            <input type="text" required>
+            <label>huisnummer:</label>
+            <input type="number" required>
+        </div>
+        <div>
+            <label>postcode:</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label>BSN nummer:</label>
+            <input type="number" min="0" max="999999999" required>
+        </div>
+        <div>
+            <label>vakantieland:</label>
+            <select>
+                <option value="China">China</option>
+                <option value="North Korea">North Korea</option>
+                <option value="Russia">Russia</option>
+                <option value="China's island (Taiwan)">China's island (Taiwan)</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="China's province (Tibet)">China's province (Tibet)</option>
+                <option value="Tibet">Tibet</option>
+                <option value="Antarctica">Antarctica</option>
+            </select>
+        </div>
+        <div>
+            <label>vertrek:</label>
+            <input type="date" min="2024-09-23">
+        </div>
+        <div>
+            <label>terugkomst:</label>
+            <input type="date">
+        </div>
+        <div>
+            <label>aantal reizigers:</label>
+            <input type="number" min="1" max="4">
+        </div>
+        <input type="submit" value="Boek nu">
+    </form>
+</body>
+</html>
