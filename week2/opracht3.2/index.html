@@ -13,7 +13,7 @@
         </div>
         <div>
             <label>Achternaam:</label>
-            <input type="text" required>
+            <input type="text"  pattern="[a-zA-Z]*" required>
         </div>
         <div>
             <label>gender</label>
@@ -51,7 +51,7 @@
         </div>
         <div>
             <label>BSN nummer:</label>
-            <input type="number" min="0" max="999999999" required>
+            <input type="number" min="" max="999999999" required>
         </div>
         <div>
             <label>vakantieland:</label>
@@ -64,6 +64,7 @@
                 <option value="China's province (Tibet)">China's province (Tibet)</option>
                 <option value="Tibet">Tibet</option>
                 <option value="Antarctica">Antarctica</option>
+                <option value="Nederland">Nederland</option>
             </select>
         </div>
         <div>
@@ -72,7 +73,7 @@
         </div>
         <div>
             <label>terugkomst:</label>
-            <input type="date">
+            <input type="date" min="2024-09-23">
         </div>
         <div>
             <label>aantal reizigers:</label>
