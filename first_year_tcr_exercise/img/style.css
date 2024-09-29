@@ -37,5 +37,31 @@ nav a {
 nav img {
   width: 5vw;
 }
+#hacker{
+ 
+  background-image: url(hackerm.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 
-
+}
+#drie{
+  background-color: black;
+  color: white;
+}
+.footer {
+  background-color:#00a8c7; 
+  color: white; 
+  text-align: center; 
+  padding: 20px; 
+  position: relative; 
+  bottom: 0; 
+  width: 100%;
+  position:fixed;
+}
+h1{
+  font-weight: bold;
+}
+h2{
+  font-weight: bold;
+}
