@@ -20,6 +20,9 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+ 
 }
 nav ul {
   display: flex;
@@ -42,7 +45,7 @@ nav img {
   background-image: url(hackerm.png);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color:white;
 
 }
 #drie{
@@ -61,7 +64,27 @@ nav img {
 }
 h1{
   font-weight: bold;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  
+  font-size: 60px;
+
 }
 h2{
   font-weight: bold;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+img{
+  float: left;
+}
+#zwart{
+  float: right;
+}
+p{
+  margin: 50px;
+}
+#title{
+  margin-top: 28%;
 }
