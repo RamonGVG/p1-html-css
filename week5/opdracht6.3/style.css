@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div{
+    color: blue;
+}
+.een{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;  
+}
+.twee{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.drie{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+}
