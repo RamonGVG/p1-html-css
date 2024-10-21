@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    padding: 150px;
+    padding-top: 0;
+    padding-left: 57px;
+    
+}
+.titel{
+    background-color:#EA4D4B ;
+    color: white;
+    background-size: cover;
+    margin: 0%;
+    padding: 20px;
+    padding-left: 57px;
+}
+.een{
+ background-color: #F9CA22;
+ 
+}
+.twee{
+ background-color:#F0922B ;
+}
+.drie{
+ background-color: #69B04C ;
+}
+h2{
+    padding: 20px;
+    padding-bottom: 0;
+    padding-left: 57px;
+}
