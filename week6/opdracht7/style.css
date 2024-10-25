@@ -36,3 +36,47 @@ h2{
     padding-bottom: 0;
     padding-left: 57px;
 }
+@media screen and (max-width: 1023px) {
+body {
+    .titel{
+        background-color: #FF6B81;
+        text-align: center;
+    }
+    .een{
+        background-color:#FE4657 ;
+        color: white;
+    }
+    .twee{
+        background-color:#5352EC ;
+        color: white;
+    }
+    .drie{
+        background-color:#3742F9 ;
+        color: white;
+    }
+
+}
+}
+@media screen and (max-width: 767px) {
+    body {
+        .titel{
+            background-color: #686DE0;
+            text-align: left;
+        }
+        .een{
+            background-color:#7ED6DF ;
+            color: white;
+            text-align: center;
+        }
+        .twee{
+            background-color:#E056FD;
+            color: white;
+            text-align: center;
+        }
+        .drie{
+            background-color:#30336A ;
+            color: white;
+            text-align: center;
+        }
+    }
+  }
