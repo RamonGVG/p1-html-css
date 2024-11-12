@@ -1,10 +1,11 @@
-.container{
+nav{
     display: flex;
     
     justify-content: center;
 }
-div{
+nav li{
     color: blue;
+    list-style-type: none;
 }
 .een{
     justify-content: flex-start;  
